@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/LadonFramework/ladon.svg?branch=master)](https://travis-ci.org/LadonFramework/ladon.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/LadonFramework/ladon/badge.svg?branch=master)](https://coveralls.io/github/LadonFramework/ladon?branch=master)
 
 # Ladon - A Software Modeling and Automation Framework
 
