@@ -2,7 +2,6 @@ language: ruby
 rvm:
   - 2.3
 
-
 before_install:
   - ruby -v
   - which ruby
@@ -20,3 +19,5 @@ jobs:
       script: bundle exec rake spec
     - stage: build
       script: bundle exec rake build
+
+after_success: coveralls
