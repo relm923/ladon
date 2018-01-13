@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/LadonFramework/ladon.svg?branch=master)](https://travis-ci.org/LadonFramework/ladon.svg?branch=master)
+
 # Ladon - A Software Modeling and Automation Framework
 
 ## Description
