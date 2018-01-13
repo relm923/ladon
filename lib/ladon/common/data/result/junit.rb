@@ -46,11 +46,7 @@ module Ladon
     # @return [Array<String>] The suite name and the case name.
     private_class_method def self.convert_path_to_suite_and_case(path)
       return '', '' if path.nil?
-
-      fragments = path.match(%r{automations/(.+)\.rb})[1]
-                  .tr('/', '.')
-                      .rpartition('.')
-
+      fragments = path.match(%r{automations/(.+)\.rb})[1].tr('/', '.').rpartition('.')
       return fragments.first, fragments.last
     end
   end

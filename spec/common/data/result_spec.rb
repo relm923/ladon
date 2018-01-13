@@ -88,8 +88,7 @@ module Ladon
           config: Ladon::Config.new(
             id: '123456',
             class_name: 'FooBar',
-            path: './lib/automations/foo/bar.rb',
-            data: { a: 1, b: 2 }
+            path: './lib/automations/foo/bar.rb'
           ),
           logger: Ladon::Logging::Logger.new(level: Logging::Level::ERROR),
           timer: Ladon::Timing::Timer.new
@@ -107,8 +106,7 @@ module Ladon
               test_class_name: 'FooBar',
               test_file_path: './lib/automations/foo/bar.rb',
               log_level: 'ERROR',
-              flags: {},
-              data: { a: 1, b: 2 }
+              flags: {}
             },
             timings: {},
             log: { level: :ERROR, entries: [] },
@@ -136,7 +134,6 @@ module Ladon
             'Test Class Name: FooBar',
             'Test File Path: ./lib/automations/foo/bar.rb',
             'Log Level: ERROR',
-            'Data: {:a=>1, :b=>2}',
             "Flags:\n\n",
             "TIMINGS:\n\n",
             'LOG MESSAGES:',
