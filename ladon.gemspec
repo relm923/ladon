@@ -30,6 +30,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'pry-byebug', '~> 3.5' # for interactive mode support in ladon-run
   gem.add_runtime_dependency 'pry-stack_explorer', '0.4.9.2' # for interactive mode support in ladon-run
 
+  gem.add_development_dependency 'coveralls', '~> 0.7'
   gem.add_development_dependency 'rake', '~> 11.3'
   gem.add_development_dependency 'rspec', '~> 3.6' # for specs
   gem.add_development_dependency 'rubocop', '~> 0.49' # for linting
